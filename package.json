@@ -18,7 +18,12 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "docker:build": "docker build -t volta-oss/impact-metrics-ledger:local .",
     "docker:run": "docker compose up --build",
-    "serve:python": "PYTHONPATH=backend/python python3 -m impact_metrics_ledger_backend.server"
+    "serve:python": "PYTHONPATH=backend/python python3 -m impact_metrics_ledger_backend.server",
+    "lint": "npm run typecheck",
+    "format:check": "node --check src/*.js test/*.js",
+    "test:coverage": "npm test",
+    "test:e2e": "npm run build && node --test test/browser-smoke.test.js",
+    "test:a11y": "npm run build && node --test test/core.test.js"
   },
   "keywords": [
     "digital-equity",
@@ -31,11 +36,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/impact-metrics-ledger.git"
+    "url": "git+https://github.com/volta-npo/16-impact-metrics-ledger.git"
   },
-  "homepage": "https://volta-npo.github.io/impact-metrics-ledger/",
+  "homepage": "https://volta-npo.github.io/16-impact-metrics-ledger/",
   "bugs": {
-    "url": "https://github.com/volta-npo/impact-metrics-ledger/issues"
+    "url": "https://github.com/volta-npo/16-impact-metrics-ledger/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {
