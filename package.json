@@ -36,11 +36,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/16-impact-metrics-ledger.git"
+    "url": "git+https://github.com/volta-npo/impact-metrics-ledger.git"
   },
-  "homepage": "https://volta-npo.github.io/16-impact-metrics-ledger/",
+  "homepage": "https://volta-npo.github.io/impact-metrics-ledger/",
   "bugs": {
-    "url": "https://github.com/volta-npo/16-impact-metrics-ledger/issues"
+    "url": "https://github.com/volta-npo/impact-metrics-ledger/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {

@@ -202,7 +202,7 @@ export const saas = {
             "cadence": "per export"
         },
         {
-            "hypothesis": "Story prompts improve CSR narrative quality",
+            "hypothesis": "Story guidance improves CSR narrative quality",
             "measure": "CSR story completeness",
             "target": "90% complete",
             "cadence": "monthly"
@@ -321,7 +321,7 @@ export const saas = {
             "format": "Markdown",
             "sections": [
                 "Client check-in",
-                "Metric prompts",
+                "Metric guidance",
                 "Story consent",
                 "Next contact"
             ]
